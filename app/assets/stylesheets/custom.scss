@@ -156,7 +156,7 @@ aside {
 
 /* Forms */
 input, textarea, select, .uneditable-input {
-  border: 1px, solid, #bbb;
+  border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -179,6 +179,21 @@ input {
   .form_control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-top: -1px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+  margin-top: -0.5px;
 }
 
 /* Miscellaneous */

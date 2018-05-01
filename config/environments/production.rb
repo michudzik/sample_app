@@ -61,7 +61,7 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "sample_app_#{Rails.env}"
   config.action_mailer.perform_caching = false
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   host = 'glacial-headland-26501.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }

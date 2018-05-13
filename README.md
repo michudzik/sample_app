@@ -4,7 +4,7 @@ This is the sample application for [*Ruby on Rails Tutorial: Learn Web Developme
 
 ## License
 
-All source code in the [Ruby on Rails Tutorial](http://www.railstutorial.org/) is available jointly under the MIT License and the Beeware License. See [LICENSE.md](License.md) for details.
+All source code in the [Ruby on Rails Tutorial](http://www.railstutorial.org/) is available jointly under the MIT License and the Beeware License. See [LICENSE](License) for details.
 
 ## Getting started
 
